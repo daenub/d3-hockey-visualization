@@ -1,0 +1,26 @@
+body { font-family: Arial;}
+
+.axis, .axis path {
+  fill: none;
+  stroke: #ACB849;
+}
+
+text {
+  stroke: none;
+  fill: #666666;
+}
+
+circle {
+  cursor: pointer;
+}
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  z-index; 99;
+  padding: 1.5em;
+  background: #3e424d;
+  border-radius: 8px;
+  pointer-events: none;
+  color: white;
+  transition: .2s all ease;
+}
